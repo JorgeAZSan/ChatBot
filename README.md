@@ -8,9 +8,13 @@ ollama run gemma3
 
 #Model -> Mistral
 #Install -> ollama pull mistral
+
 #ollama pull llama3
+
 #ollama pull deepseek-r1
+
 #ollama pull gemma
+
 #ollama pull tinyllama -> Màsligero
 
 #Interface
