@@ -47,21 +47,7 @@ st.subheader("Chat history")
 for msg in st.session_state.chat_history.messages:
     st.write(f"**{msg.type.capitalize()}**: {msg.content}")
     
-
-        
-  
-
-
-
-
-
-
-
-
-
-
-
-# #Basic AI Agent with memory
+#------------------------------ Basic AI Agent with memory -----------------------------------------
 
 # import streamlit as st
 # from langchain_community.chat_message_histories import ChatMessageHistory
@@ -105,9 +91,7 @@ for msg in st.session_state.chat_history.messages:
 #     print(f"\AI: {ai_response}")
 
 
-
-
-#             #Basic AI Agent
+#------------------------------              Basic AI Agent  -----------------------------------------
 # # #Load AI model from Ollama
 # # llm= OllamaLLM(model="tinyllama")
 # # print("\n Welcome to your AI Agent! Ask me anything.")
